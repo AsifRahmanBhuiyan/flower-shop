@@ -118,9 +118,31 @@
     margin-top: 160.5px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 161.25px;
 }
 
 .featured-foot img{
     height: 66px;
     width: 66px;
+}
+
+
+/* Hot Deal Section Style */
+
+#hot-deal-section{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hot-deal-text .off{
+    color: #E55473;
+}
+
+.hot-deal-text button{
+    margin-top: 24px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
